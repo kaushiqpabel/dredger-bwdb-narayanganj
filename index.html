@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dredger, BWDB, Narayanganj</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap" rel="stylesheet">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<style>
+  body {
+    padding: 85px 0;
+  }
+  section{
+    margin-bottom: 50px;
+  }
+  
+</style>
+<body>
+
+  <!-- navbar-->
+
+  <nav class="navbar navbar-expand-md fixed-top bg-white navbar-light">
+    <div class="container-xxl">
+      <a href="#" class="navbar-brand">  
+        <span class="fw-bold text-secondary d-none d-md-inline">
+          <img src="assets/bwdb-logo.png" alt="" style="width: 60px;">     
+          Dredger, BWDB, Narayanganj
+        </span>
+
+        <span class="text-secondary h6 fw-bold d-md-none">
+          <img src="assets/bwdb-logo.png" alt="" style="width: 35px;"  >     
+          Dredger, BWDB, Narayanganj
+        </span>
+      </a>
+
+
+      <button class="btn d-md-none float-end h5" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" role="button">
+        <i class="navbar-toggler-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"></i>
+      </button>
+
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse text-center justify-content-end align-center">
+        <ul class="navbar-nav">
+          <li >
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li >
+            <a href="#our-offices-and-officers" class="nav-link">Our Offices</a>
+          </li>
+          <li >
+            <a href="#current-projects" class="nav-link">Current Projects</a>
+          </li>
+          <li >
+            <a href="#our-dredgers" class="nav-link">Our Dredgers</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+
+  <!-- 
+    Note about stopping auto image sliding 
+      That will make the auto sliding stop because there no Milliseconds added and will never slider next.
+
+      Via Html By adding data-interval="false" and removing data-ride="carousel"
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      becomes:
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-interval="false">
+   -->
+
+  <!-- main image & intro text -->
+  <!-- image size should be 960 * 220 -->
+  <section id="home">
+    <div class="container-xxl">
+      <div id="carouselExampleCaptions" class="carousel slide" data-interval="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/1.jpg" class="carousel-pic" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- 
+                <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+               -->
+              
+            </div>
+          </div>
+          <div class="carousel-item" >
+            <img src="assets/2.jpg"  class="carousel-pic" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- 
+                <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+               -->
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/3.jpg" class="carousel-pic" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- 
+                <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+               -->
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+
+  </section>
+
+
+
+
+  <section>
+    <div class="container-xxl px-4" id="about-us-history-insertion-point">
+          
+          <!-- for Bangla font
+          style="font-family: 'Tiro Bangla', serif;"
+          -->
+          
+    </div>
+  </section>
+
+   <!-- topics at a glance -->
+   <section id="our-offices-and-officers">
+    <div class="container-xl">
+      <div class="text-center">
+        <h2>Our Offices</h2>
+        <p class="lead text-muted">A quick glance at Our Offices</p>
+      </div>
+
+      <div class="row g-5 justify-content-between">
+        <div class="col-12 col-lg-6">
+          <img src="assets/organogram.jpg" class="img-fluid" alt="">
+          
+        </div>
+
+        <!-- accordion -->
+        <div class="col-12 col-lg-6">
+          <div class="accordion accordion-flush" id="our-offices">
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ce-office-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ce-office" aria-expanded="false" aria-controls="ce-office">
+                  Chief Engineer Office
+                </button>
+              </h2>
+    
+              <div class="accordion-collapse collapse" id="ce-office" aria-labelledby="ce-office-heading" data-bs-parent="#our-offices">
+                <div class="accordion-body">
+                  <div class="container">
+                    <div class="row g-4 align-items-center justify-content-around" id="ce-insertion-point">
+                      
+                    </div>
+                  </div>
+                </div>   
+              </div>   
+            </div>
+    
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="doc-office-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doc-office" aria-expanded="false" aria-controls="doc-office">
+                  Superintending Engineer Office, Dredger Operation Circle
+                </button>
+              </h2>
+    
+              <div class="accordion-collapse collapse" id="doc-office" aria-labelledby="doc-office-heading" data-bs-parent="#our-offices">
+                <div class="accordion-body">
+                  <div class="container">
+                    <div class="row g-4 align-items-center justify-content-around" id="doc-insertion-point">
+
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+    
+            </div>
+    
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="dsc-office-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dsc-office" aria-expanded="false" aria-controls="dsc-office">
+                  Superintending Engineer Office, Dredger Services Circle
+                </button>
+              </h2>
+    
+              <div class="accordion-collapse collapse" id="dsc-office" aria-labelledby="dsc-office-heading" data-bs-parent="#our-offices">
+                <div class="accordion-body">
+                  <div class="container">
+                    <div class="row g-4 align-items-center justify-content-around" id="dsc-insertion-point">
+
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+    
+            </div>
+    
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ndd-office-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ndd-office" aria-expanded="false" aria-controls="ndd-office">
+                  Executive Engineer Office, Narayanganj Dredger Operation Division
+                </button>
+              </h2>
+    
+              <div class="accordion-collapse collapse" id="ndd-office" aria-labelledby="ndd-office-heading" data-bs-parent="#our-offices">
+                <div class="accordion-body">
+                  <div class="container">
+                    <div class="row g-4 align-items-center justify-content-around" id="ndd-insertion-point">
+
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+    
+            </div>
+    
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="mdd-office-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mdd-office" aria-expanded="false" aria-controls="mdd-office">
+                  Executive Engineer Office, Manikganj Dredger Operation Division
+                </button>
+              </h2>
+    
+              <div class="accordion-collapse collapse" id="mdd-office" aria-labelledby="mdd-office-heading" data-bs-parent="#our-offices">
+                <div class="accordion-body">
+                  <div class="container">
+                    <div class="row g-4 align-items-center justify-content-around" id="mdd-insertion-point">
+                      
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+    
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="cdd-office-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cdd-office" aria-expanded="false" aria-controls="cdd-office">
+                  Executive Engineer Office, Chattogram Dredger Operation Division
+                </button>
+              </h2>
+    
+              <div class="accordion-collapse collapse" id="cdd-office" aria-labelledby="cdd-office-heading" data-bs-parent="#our-offices">
+                <div class="accordion-body">
+                  <div class="container">
+                    <div class="row g-4 align-items-center justify-content-around" id="cdd-insertion-point">
+                      
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+    
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="dsd-office-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dsd-office" aria-expanded="false" aria-controls="dsd-office">
+                  Executive Engineer Office, Dredger Store Division
+                </button>
+              </h2>
+    
+              <div class="accordion-collapse collapse" id="dsd-office" aria-labelledby="dsd-office-heading" data-bs-parent="#our-offices">
+                <div class="accordion-body">
+                  <div class="container">
+                    <div class="row g-4 align-items-center justify-content-around" id="dsd-insertion-point">
+                      
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+    
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="dmd-office-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dmd-office" aria-expanded="false" aria-controls="dmd-office">
+                  Executive Engineer Office, Dredger Maintenance Division
+                </button>
+              </h2>
+    
+              <div class="accordion-collapse collapse" id="dmd-office" aria-labelledby="dmd-office-heading" data-bs-parent="#our-offices">
+                <div class="accordion-body">
+                  
+                  <div class="container">
+                    <div class="row g-4 align-items-center justify-content-around" id="dmd-insertion-point">
+                      
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+    
+            </div>
+
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="rac-office-heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rac-office" aria-expanded="false" aria-controls="rac-office">
+                  RAC Office
+                </button>
+              </h2>
+    
+              <div class="accordion-collapse collapse" id="rac-office" aria-labelledby="rac-office-heading" data-bs-parent="#our-offices">
+                <div class="accordion-body">
+                  <div class="container">
+                    <div class="row g-4 align-items-center justify-content-around" id="rac-insertion-point">
+                      
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+    
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+        
+    </div>
+   </section>
+
+   <!--- current projects -->
+  <section id="current-projects" class="bg-light">
+    <div class="container-md py-5 my-5">
+      <div class="text-center">
+        <h2><i class="bi bi-stars"></i>Current Projects</h2>
+        <p class="lead">Dredging Projects Under Dredger, BWDB, Narayanganj</p>
+      </div>
+
+      <div class="row justify-content-around">
+        <div class="col-md-8 col-lg-6">
+          <div class="accordion accordion-flush" id="projects-info-insertion-point">   
+
+          </div> 
+        </div>
+      </div> 
+    </div>
+  </section>
+
+   <!-- contact form -->
+   <!-- form-control, form-label, form-select, input-group, input-group-text -->
+
+   <section id="our-dredgers">
+    <div class="container-lg">
+
+      <div class="text-center mb-4">
+        <h2><i class="bi bi-card-list"></i> Our Dredgers</h2>
+        <p class="lead">All Dredgers Under Dredger, BWDB, Narayanganj</p>
+      </div>
+
+     
+
+      <div class="row g-4 justify-content-around align-items-baseline" id="dredger-info-insertion-point">
+     
+      </div>
+    </div>
+   </section>
+
+
+
+   <!-- get updates/modal trigger -->
+   <!-- modal itself -->
+   <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, aut assumenda architecto ex aliquam illo sint blanditiis asperiores voluptas maxime, modi officiis veniam nulla optio deserunt praesentium. Pariatur, consequatur vitae.</p>
+            <label for="modal-email" class="form-label">Your email address:</label>
+            <input type="email" id="modal-email" class="form-control" placeholder="e.g. kaushiq@email.com">
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start w-25" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="false">
+      <div class="offcanvas-header justify-content-between align-items-center ">
+          <h6 class="offcanvas-title text-secondary">Close</h6>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body px-0">
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
+              <li class="nav-item">
+                  <a href="#home" class="nav-link text-truncate text-secondary" data-bs-dismiss="offcanvas">
+                    Home</a>
+              </li>
+              <li>
+                  <a href="#current-projects" data-bs-dismiss="offcanvas" class="nav-link text-truncate text-secondary">
+                      Current Projects</a>
+              </li>
+              <li>
+                  <a href="#our-offices-and-officers" data-bs-dismiss="offcanvas" class="nav-link text-truncate text-secondary">
+                    Our Offices</a>
+              </li>
+              <li>
+                  <a href="#our-dredgers" data-bs-dismiss="offcanvas" class="nav-link text-truncate text-secondary">
+                    Our Dredgers</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

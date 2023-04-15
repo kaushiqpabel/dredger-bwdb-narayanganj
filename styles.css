@@ -1,0 +1,14 @@
+.profile-pic{
+  width: 128px;
+  height: 128px;
+  border-radius: 64px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-pic{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
